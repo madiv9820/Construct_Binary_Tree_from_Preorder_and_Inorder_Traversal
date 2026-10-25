@@ -1,6 +1,7 @@
 """🌳 Construct a binary tree from preorder and inorder traversals."""
 from typing import List, Optional
 from treenode import TreeNode
+from .approaches import DFSRecursive
 
 class Solution:
     """🧩 Provide the interface for binary tree construction."""
@@ -19,4 +20,5 @@ class Solution:
         Returns:
             The root of the reconstructed binary tree, or None if empty.
         """
-        return None
+        dfsrecursive: DFSRecursive = DFSRecursive(preorder=preorder, inorder=inorder)
+        return dfsrecursive.buildTree(0, len(preorder) - 1, 0, len(inorder) - 1)
