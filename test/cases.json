@@ -1,0 +1,38 @@
+[
+  {
+    "title": "🌳 Balanced Binary Tree",
+    "input": {
+      "preorder": [3, 9, 20, 15, 7],
+      "inorder": [9, 3, 15, 20, 7]
+    },
+    "output": [3, 9, 20, null, null, 15, 7],
+    "description": "🧩 Reconstruct a binary tree with left and right subtrees."
+  },
+  {
+    "title": "🍃 Single Node",
+    "input": {
+      "preorder": [-1],
+      "inorder": [-1]
+    },
+    "output": [-1],
+    "description": "🌱 Build a tree containing just one node."
+  },
+  {
+    "title": "⬅️ Left-Skewed Tree",
+    "input": {
+      "preorder": [3, 2, 1],
+      "inorder": [1, 2, 3]
+    },
+    "output": [3, 2, null, 1],
+    "description": "🌿 Reconstruct a tree where every node has only a left child."
+  },
+  {
+    "title": "➡️ Right-Skewed Tree",
+    "input": {
+      "preorder": [1, 2, 3],
+      "inorder": [1, 2, 3]
+    },
+    "output": [1, null, 2, null, 3],
+    "description": "🌲 Reconstruct a tree where every node has only a right child."
+  }
+]
