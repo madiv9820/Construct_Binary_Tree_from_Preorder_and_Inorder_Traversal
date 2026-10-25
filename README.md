@@ -52,7 +52,7 @@ Each node contains a unique value, and both traversals are guaranteed to represe
 
 - $1 \leq \text{preorder.length} \leq 3000$
 - `inorder.length == preorder.length`
-- $ -3000 \leq \text{preorder[i]}, \text{inorder[i]} \leq 3000 $
+- $-3000 \leq \text{preorder[i]}, \text{inorder[i]} \leq 3000$
 - All values in each traversal are **unique**.
 - Every value in `inorder` also appears in `preorder`.
 - Both arrays are guaranteed to be valid traversals of the same binary tree.
